@@ -439,7 +439,7 @@ its height to 240px */
     align-items: center;
     opacity:0;
     transform: translateY(20px);
-    transition: all 1.5s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .handles-animation{
