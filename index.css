@@ -91,6 +91,7 @@ a{
     display: none;
 }
 
+
 /* when a menu is in checked state look for the next
 available sibling that has a class of menu and change
 its height to 240px */
@@ -111,6 +112,7 @@ its height to 240px */
     transform: rotate(45deg);   
     top:0px;
 }
+
 
 @media (min-width:768px){
     header li{
@@ -140,11 +142,6 @@ its height to 240px */
     width:100%;
     height: calc(100% - 60px);
 }
-
-.name1{
-    height:50%
-}
-
 
 .home{
     text-align: center;
@@ -567,6 +564,12 @@ its height to 240px */
     width:75%;
     word-break: break-all;
     padding-right:20px;
+}
+
+@media all and (max-width: 500px){
+    .bounce{
+        left:43%;
+    }
 }
 
 @media all and (max-width:768px){
